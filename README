@@ -1,11 +1,11 @@
-# Energy Generation Analysis & Forecasting
+Energy Generation Analysis & Forecasting
 
-## 📌 Overview  
+Overview: 
 This project explores and forecasts energy generation, load, and price trends using historical time-series data. I perform data cleaning, feature engineering, model development, and visualization to uncover patterns and support planning decisions in the energy sector.
 
 ---
 
-## 🛠 Tech Stack  
+🛠 Tech Stack:  
 - **Languages & Tools:** Python, Pandas, NumPy  
 - **Modeling:** ARIMA, Prophet, regression techniques  
 - **Visualization:** Matplotlib, Seaborn  
@@ -14,7 +14,7 @@ This project explores and forecasts energy generation, load, and price trends us
 
 ---
 
-## 🔄 Workflow / Pipeline  
+🔄 Workflow / Pipeline  
 1. **Data Ingestion** – load historical energy dataset (generation, load, price)  
 2. **Data Cleaning** – handle missing values, outlier removal, data type conversion  
 3. **Exploratory Analysis** – visualize trends, correlations, seasonality  
@@ -25,7 +25,7 @@ This project explores and forecasts energy generation, load, and price trends us
 
 ---
 
-## 📊 Key Findings & Insights  
+📊 Key Findings & Insights  
 - The dataset shows clear **seasonal and daily cycles** in energy generation and load.  
 - Forecast models (Prophet, ARIMA) capture these cycles fairly well; residuals indicate some unexplained volatility.  
 - Feature engineering (lag features, rolling windows) improved forecast accuracy by reducing error metrics.  
